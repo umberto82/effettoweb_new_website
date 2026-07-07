@@ -4,6 +4,7 @@ import WhatWeDo from "../components/WhatWeDo";
 import WhyUs from "../components/WhyUs";
 import RecentProjects from "../components/RecentProjects";
 import Process from "../components/Process";
+import BusinessValue from "../components/BusinessValue";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 
@@ -22,6 +23,7 @@ export default function Home() {
       <WhyUs />
       <RecentProjects />
       <Process />
+      <BusinessValue />
       <FAQ />
       <Footer />
     </>
