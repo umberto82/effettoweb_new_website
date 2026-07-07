@@ -16,8 +16,8 @@ export default function Contact() {
         style={{
           width: 860,
           maxWidth: "100%",
-          margin: "120px auto 0",
-          padding: "80px 24px",
+          margin: "130px auto 0",
+          padding: "24px 24px",
           boxSizing: "border-box",
         }}
       >

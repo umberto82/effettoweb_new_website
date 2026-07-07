@@ -57,7 +57,7 @@ export default function WhatWeDo() {
     <section
       ref={sectionRef}
       style={{
-        width: 960,
+        width: 860,
         maxWidth: "100%",
         margin: "0 auto",
         padding: "100px 24px",
@@ -119,7 +119,7 @@ export default function WhatWeDo() {
               borderRadius: 32,
               border: "1px solid rgba(0, 0, 0, 0.06)",
               padding: "32px 28px 28px",
-              cursor: "pointer",
+              cursor: "default",
               position: "relative",
               overflow: "hidden",
               minWidth: 0,

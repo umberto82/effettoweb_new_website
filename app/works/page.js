@@ -276,7 +276,7 @@ function ProjectCard({ project, index, isExpanded, onClick }) {
         sizes="(max-width: 768px) 100vw, 1152px"
       />
 
-      <HoverOverlay />
+      {!isExpanded && <HoverOverlay />}
 
       <div
         style={{
@@ -480,8 +480,8 @@ export default function Works() {
         style={{
           maxWidth: 1200,
           width: "100%",
-          margin: "120px auto 0",
-          padding: "60px 24px 0",
+          margin: "130px auto 0",
+          padding: "24px 24px 0",
           boxSizing: "border-box",
         }}
       >
@@ -494,7 +494,7 @@ export default function Works() {
           <Breadcrumb
             items={[
               { href: "/", label: "Home" },
-              { label: "Lavori" },
+              { label: "Progetti" },
             ]}
           />
           <h1

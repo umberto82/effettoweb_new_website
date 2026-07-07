@@ -24,23 +24,23 @@ const instrumentSans = Instrument_Sans({
 export const metadata = {
   metadataBase: new URL("https://effettoweb.com"),
   title: {
-    default: "EffettoWeb | Web Agency Roma - Siti Web, E-commerce e Marketing",
+    default: "EffettoWeb | Web Agency Padova - Siti Web, E-commerce e Marketing",
     template: "%s | EffettoWeb",
   },
-  description:
-    "Web agency a Roma specializzata in siti web professionali, e-commerce, marketing digitale e SEO. Sviluppo Next.js, WordPress e soluzioni su misura per far crescere il tuo business online.",
-  keywords: [
-    "web agency",
-    "siti web",
-    "ecommerce",
-    "marketing digitale",
-    "SEO",
-    "Roma",
-    "Next.js",
-    "WordPress",
-    "sviluppo web",
-    "agenzia web",
-  ],
+    description:
+      "Web agency a Padova specializzata in siti web professionali, e-commerce, marketing digitale e SEO. Sviluppo Next.js, WordPress e soluzioni su misura per far crescere il tuo business online.",
+    keywords: [
+      "web agency",
+      "siti web",
+      "ecommerce",
+      "marketing digitale",
+      "SEO",
+      "Padova",
+      "Next.js",
+      "WordPress",
+      "sviluppo web",
+      "agenzia web",
+    ],
   authors: [{ name: "EffettoWeb" }],
   creator: "EffettoWeb",
   publisher: "EffettoWeb",
@@ -48,9 +48,9 @@ export const metadata = {
     type: "website",
     locale: "it_IT",
     siteName: "EffettoWeb",
-    title: "EffettoWeb | Web Agency Roma - Siti Web, E-commerce e Marketing",
+    title: "EffettoWeb | Web Agency Padova - Siti Web, E-commerce e Marketing",
     description:
-      "Web agency a Roma specializzata in siti web professionali, e-commerce e marketing digitale. Realizziamo soluzioni su misura per il tuo business.",
+      "Web agency a Padova specializzata in siti web professionali, e-commerce e marketing digitale. Realizziamo soluzioni su misura per il tuo business.",
     images: [
       {
         url: "/imgs/header/effettoweb_logo.png",
@@ -62,7 +62,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "EffettoWeb | Web Agency Roma",
+    title: "EffettoWeb | Web Agency Padova",
     description:
       "Siti web, e-commerce e marketing digitale su misura per la tua azienda.",
   },

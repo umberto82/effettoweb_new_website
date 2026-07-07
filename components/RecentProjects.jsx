@@ -96,7 +96,7 @@ export default function RecentProjects() {
               borderRadius: 32,
               border: "1px solid rgba(0, 0, 0, 0.06)",
               overflow: "hidden",
-              cursor: "pointer",
+              cursor: "default",
               position: "relative",
               aspectRatio: "4/3",
               background: "var(--card-bg)",

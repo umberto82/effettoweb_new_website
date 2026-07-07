@@ -114,7 +114,7 @@ export default function WhyUs() {
                 ? "1px solid rgba(0, 0, 0, 0.06)"
                 : "1px solid rgba(0, 0, 0, 0.04)",
               padding: "24px 28px 20px",
-              cursor: "pointer",
+              cursor: "default",
               position: "relative",
               overflow: "hidden",
               transition: "box-shadow 0.3s",

@@ -25,12 +25,13 @@ export default async function BlogPostPage({ params }) {
   return (
     <>
       <Header />
-      <article
+      <section
+        className="works-hero"
         style={{
           width: 860,
           maxWidth: "100%",
-          margin: "120px auto 0",
-          padding: "60px 24px 80px",
+          margin: "130px auto 0",
+          padding: "24px 24px 80px",
           boxSizing: "border-box",
         }}
       >
@@ -38,38 +39,38 @@ export default async function BlogPostPage({ params }) {
           items={[
             { href: "/", label: "Home" },
             { href: "/blog", label: "Blog" },
-            { label: post.title },
           ]}
         />
 
-        <p
-          style={{
-            fontFamily: "var(--font-instrument-sans), sans-serif",
-            fontSize: 14,
-            color: "#888888",
-            marginBottom: 8,
-          }}
-        >
-          {new Date(post.date).toLocaleDateString("it-IT", {
-            day: "numeric",
-            month: "long",
-            year: "numeric",
-          })}
-        </p>
-
-        <h1
-          style={{
-            fontFamily: "var(--font-instrument-serif), serif",
-            fontSize: "clamp(28px, 4vw, 44px)",
-            fontWeight: 400,
-            lineHeight: 1.2,
-            letterSpacing: "-0.02em",
-            color: "#0f0f1a",
-            marginBottom: 32,
-          }}
-        >
-          {post.title}
-        </h1>
+        <div style={{ textAlign: "center" }}>
+          <h1
+            style={{
+              fontFamily: "var(--font-instrument-serif), serif",
+              fontSize: "clamp(28px, 4vw, 44px)",
+              fontWeight: 400,
+              lineHeight: 1.2,
+              letterSpacing: "-0.02em",
+              color: "#0f0f1a",
+              marginBottom: 8,
+            }}
+          >
+            {post.title}
+          </h1>
+          <p
+            style={{
+              fontFamily: "var(--font-instrument-sans), sans-serif",
+              fontSize: 14,
+              color: "#888888",
+              marginBottom: 32,
+            }}
+          >
+            {new Date(post.date).toLocaleDateString("it-IT", {
+              day: "numeric",
+              month: "long",
+              year: "numeric",
+            })}
+          </p>
+        </div>
 
         {post.cover && (
           <div
@@ -195,7 +196,7 @@ export default async function BlogPostPage({ params }) {
             {post.content}
           </ReactMarkdown>
         </div>
-      </article>
+      </section>
       <Footer />
     </>
   );

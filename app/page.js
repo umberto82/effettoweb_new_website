@@ -8,9 +8,9 @@ import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 
 export const metadata = {
-  title: "EffettoWeb | Web Agency Roma - Siti Web, E-commerce, Marketing",
+  title: "EffettoWeb | Web Agency Padova - Siti Web, E-commerce, Marketing",
   description:
-    "Web agency a Roma. Realizziamo siti web professionali, e-commerce e strategie di marketing digitale per farti trovare nuovi clienti e far crescere il tuo business.",
+    "Web agency a Padova. Realizziamo siti web professionali, e-commerce e strategie di marketing digitale per farti trovare nuovi clienti e far crescere il tuo business.",
 };
 
 export default function Home() {

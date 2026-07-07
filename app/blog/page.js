@@ -27,8 +27,8 @@ export default function BlogPage() {
         style={{
           width: 860,
           maxWidth: "100%",
-          margin: "120px auto 0",
-          padding: "60px 24px 48px",
+          margin: "130px auto 0",
+          padding: "24px 24px 48px",
           boxSizing: "border-box",
         }}
       >

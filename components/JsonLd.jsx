@@ -4,13 +4,13 @@ export default function JsonLd() {
     "@type": "ProfessionalService",
     name: "EffettoWeb",
     description:
-      "Web agency a Roma specializzata in siti web professionali, e-commerce e marketing digitale.",
+      "Web agency a Padova specializzata in siti web professionali, e-commerce e marketing digitale.",
     url: "https://effettoweb.com",
     email: "umberto@effettoweb.com",
     telephone: "+39 329 4248 683",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Roma",
+      addressLocality: "Padova",
       addressCountry: "IT",
     },
     sameAs: ["https://linkedin.com"],
