@@ -2,7 +2,7 @@
 title: "Presentazione del blog per sviluppatori"
 date: "2024-10-08"
 excerpt: "Benvenuto nel nostro Blog per sviluppatori, uno spazio dedicato a noi developers e a tutti coloro che vogliono approfondire le loro conoscenze nel mondo della tecnologia e dello sviluppo digitale."
-cover: "https://effettoweb.com/wp-content/uploads/2024/10/airplane-taking-off-in-the-sun-1024x656.jpg"
+cover: null
 ---
 
 ## Introduzione
