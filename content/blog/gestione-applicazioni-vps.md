@@ -2,7 +2,7 @@
 title: "Gestione di più applicazioni in una singola configurazione VPS"
 date: "2024-10-24"
 excerpt: "Scopri come gestire più applicazioni Node.js su una singola VPS utilizzando PM2 e Nginx per il proxy delle richieste."
-cover: null
+cover: "/imgs/blog/50.png"
 ---
 
 In questo articolo vedremo una configurazione **VPS** con un file PM2 per avviare più applicazioni Node.js contemporaneamente sulla stessa VPS.

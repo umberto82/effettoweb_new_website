@@ -2,7 +2,7 @@
 title: "I cron jobs su Node.js"
 date: "2024-10-21"
 excerpt: "I cron jobs sono operazioni pianificate che vengono eseguite automaticamente a intervalli regolari. Scopri come automatizzare task ripetitivi con Node.js e node-cron."
-cover: null
+cover: "/imgs/blog/51.png"
 ---
 
 ## Introduzione ai cron jobs

@@ -2,7 +2,7 @@
 title: "Trello vs Jira? Che cosa sono e quale scegliere?"
 date: "2024-10-31"
 excerpt: "Due strumenti popolari per la gestione dei progetti a confronto. Trello per la semplicità visiva, Jira per team Agile complessi."
-cover: null
+cover: "/imgs/blog/52.png"
 ---
 
 ## Introduzione
