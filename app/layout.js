@@ -5,6 +5,7 @@ import JsonLd from "../components/JsonLd";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const instrumentSerif = Instrument_Serif({
@@ -12,6 +13,7 @@ const instrumentSerif = Instrument_Serif({
   style: ["normal", "italic"],
   variable: "--font-instrument-serif",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const instrumentSans = Instrument_Sans({
@@ -19,6 +21,7 @@ const instrumentSans = Instrument_Sans({
   style: ["normal"],
   variable: "--font-instrument-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata = {

@@ -237,6 +237,7 @@ export default function Hero() {
                 fill
                 style={{ objectFit: "cover" }}
                 sizes="400px"
+                priority={i < 4}
               />
             </div>
           ))}
