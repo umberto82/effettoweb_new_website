@@ -70,6 +70,9 @@ export const metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: "/imgs/favicon_ew.png",
+  },
 };
 
 export default function RootLayout({ children }) {
