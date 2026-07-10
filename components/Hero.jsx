@@ -136,7 +136,7 @@ export default function Hero() {
         >
           Siti web, ecommerce e strategie digitali su misura — per farti
           conoscere, trovare nuovi clienti e far crescere il tuo fatturato.
-          Web agency a Padova e provincia.
+          Web agency a Padova, lavoriamo da remoto in tutta Italia.
         </motion.p>
 
         <motion.div

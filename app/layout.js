@@ -28,7 +28,7 @@ export const metadata = {
     template: "%s | EffettoWeb",
   },
     description:
-      "Web agency a Padova specializzata in siti web professionali, e-commerce, marketing digitale e SEO. Sviluppo Next.js, WordPress e soluzioni su misura per far crescere il tuo business online.",
+      "Web agency a Padova, lavoriamo da remoto in tutta Italia. Siti web professionali, e-commerce, marketing digitale e SEO. Next.js e WordPress su misura.",
     keywords: [
       "web agency",
       "siti web",

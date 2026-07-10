@@ -25,6 +25,11 @@ const faqs = [
       "Sì, possiamo integrare un blog o un CMS che ti permette di pubblicare articoli, news e aggiornamenti in completa autonomia, senza bisogno di competenze tecniche.",
   },
   {
+    question: "Lavorate solo a Padova?",
+    answer:
+      "Abbiamo base a Padova ma lavoriamo da remoto con aziende e professionisti in tutta Italia. Comunichiamo via email, telefono e videochiamate.",
+  },
+  {
     question: "Fornite supporto dopo il lancio?",
     answer:
       "Sì. L'assistenza post-lancio è un servizio a pagamento, disponibile in diversi pacchetti: dalla manutenzione base fino a piani completi con aggiornamenti, backup e ottimizzazioni continue. Scegli quello più adatto alle tue esigenze.",

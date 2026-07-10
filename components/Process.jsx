@@ -80,7 +80,7 @@ export default function Process() {
             }}
           >
             Semplice, veloce, senza sorprese. Tre step per portare la tua
-            azienda online.
+            azienda online. Da Padova a tutta Italia, da remoto.
           </p>
         </div>
         <div
