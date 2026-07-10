@@ -166,7 +166,7 @@ export default function WhatWeDo() {
                 {service.img1 ? (
                   <Image
                     src={service.img1}
-                    alt=""
+                    alt={service.title}
                     width={90}
                     height={68}
                     style={{ objectFit: "cover" }}
@@ -211,7 +211,7 @@ export default function WhatWeDo() {
                 {service.img2 ? (
                   <Image
                     src={service.img2}
-                    alt=""
+                    alt={service.title}
                     width={90}
                     height={68}
                     style={{ objectFit: "cover" }}

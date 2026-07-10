@@ -22,7 +22,7 @@ const instrumentSans = Instrument_Sans({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://effettoweb.com"),
+  metadataBase: new URL("https://www.effettoweb.com"),
   title: {
     default: "EffettoWeb | Web Agency Padova - Siti Web, E-commerce e Marketing",
     template: "%s | EffettoWeb",

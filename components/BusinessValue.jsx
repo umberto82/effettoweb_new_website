@@ -66,7 +66,7 @@ export default function BusinessValue() {
             fontWeight: 400,
           }}
         >
-          Non solo un bel sito. Risultati veri per il tuo business.
+          Risultati veri per il tuo business. Web Agency Padova.
         </p>
       </motion.div>
 

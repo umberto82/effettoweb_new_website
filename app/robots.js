@@ -7,6 +7,6 @@ export default function robots() {
       allow: "/",
       disallow: "/api/",
     },
-    sitemap: "https://effettoweb.com/sitemap.xml",
+    sitemap: "https://www.effettoweb.com/sitemap.xml",
   };
 }

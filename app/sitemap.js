@@ -1,7 +1,7 @@
 import { getAllPosts } from "../lib/blog";
 
 export default function sitemap() {
-  const baseUrl = "https://effettoweb.com";
+  const baseUrl = "https://www.effettoweb.com";
   const posts = getAllPosts();
 
   const blogUrls = posts.map((post) => ({

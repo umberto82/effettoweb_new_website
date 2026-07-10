@@ -518,7 +518,7 @@ export default function Works() {
               fontWeight: 400,
             }}
           >
-            Progetti reali e demo per potenziali clienti.
+            Siti web professionali realizzati a Padova e in tutta Italia.
           </p>
         </motion.div>
       </section>

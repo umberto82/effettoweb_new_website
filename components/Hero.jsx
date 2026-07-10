@@ -136,6 +136,7 @@ export default function Hero() {
         >
           Siti web, ecommerce e strategie digitali su misura — per farti
           conoscere, trovare nuovi clienti e far crescere il tuo fatturato.
+          Web agency a Padova e provincia.
         </motion.p>
 
         <motion.div
@@ -232,7 +233,7 @@ export default function Hero() {
             >
               <Image
                 src={`/imgs/carosello/${num}.png`}
-                alt={`Progetto ${num}`}
+                alt={`Progetto sito web realizzato da web agency Padova ${num}`}
                 fill
                 style={{ objectFit: "cover" }}
                 sizes="400px"
