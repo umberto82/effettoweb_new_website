@@ -7,7 +7,7 @@ export default function JsonLd() {
       "Web agency a Padova specializzata in siti web professionali, e-commerce e marketing digitale.",
     url: "https://effettoweb.com",
     email: "umberto@effettoweb.com",
-    telephone: "+39 329 4248 683",
+    telephone: "+39 376 005 1382",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Padova",
