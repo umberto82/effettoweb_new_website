@@ -238,6 +238,7 @@ export default function Hero() {
                 style={{ objectFit: "cover" }}
                 sizes="400px"
                 priority={i < 4}
+                loading={i < 4 ? undefined : "lazy"}
               />
             </div>
           ))}
