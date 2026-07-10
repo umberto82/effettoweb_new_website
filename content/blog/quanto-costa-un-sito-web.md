@@ -2,7 +2,7 @@
 title: "Quanto costa un sito web nel 2026? Guida completa ai prezzi"
 date: "2026-07-10"
 excerpt: "Quanto costa un sito web professionale? Dai 500€ di un sito vetrina ai 5.000€ di un ecommerce avanzato. Ecco tutti i prezzi aggiornati e cosa include ogni opzione."
-cover: "/imgs/blog/49.png"
+cover: "/imgs/blog/prezzo-sito-web-2026.png"
 ---
 
 ## Quanto costa davvero un sito web?
