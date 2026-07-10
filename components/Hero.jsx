@@ -147,7 +147,7 @@ export default function Hero() {
           custom={3}
         >
           <a
-            href="/contact"
+            href="/contatti"
             style={{
               display: "inline-flex",
               alignItems: "center",

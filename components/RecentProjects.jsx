@@ -177,7 +177,7 @@ export default function RecentProjects() {
         style={{ textAlign: "center" }}
       >
         <a
-          href="/works"
+          href="/progetti"
           style={{
             display: "inline-flex",
             alignItems: "center",

@@ -8,9 +8,9 @@ import { usePathname } from "next/navigation";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/works", label: "Progetti" },
+  { href: "/progetti", label: "Progetti" },
   { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Contatti" },
+  { href: "/contatti", label: "Contatti" },
 ];
 
 export default function Header() {
@@ -177,7 +177,7 @@ export default function Header() {
         </button>
 
         {/* CTA button - hidden on mobile */}
-        <a href="/contact" className="header-cta" style={{ display: "inline-block" }}>
+        <a href="/contatti" className="header-cta" style={{ display: "inline-block" }}>
           <span
             style={{
               display: "inline-block",

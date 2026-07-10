@@ -26,7 +26,7 @@ export default function Footer() {
 
       <div style={{ display: "flex", gap: 20 }}>
         <a
-          href="/contact"
+          href="/contatti"
           style={{
             fontFamily: "var(--font-instrument-sans), sans-serif",
             fontSize: 14,
