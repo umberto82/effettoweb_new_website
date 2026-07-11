@@ -5,7 +5,7 @@ import Image from "next/image";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
-const projects = [17, 2, 28, 24];
+const projects = [17, 2, 22, 23];
 
 export default function EnPage() {
   return (
