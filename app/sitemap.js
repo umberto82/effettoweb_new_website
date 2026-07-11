@@ -16,6 +16,7 @@ export default function sitemap() {
     { url: `${baseUrl}/progetti`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
     { url: `${baseUrl}/blog`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.7 },
     { url: `${baseUrl}/contatti`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/en`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 },
     ...blogUrls,
   ];
 }
