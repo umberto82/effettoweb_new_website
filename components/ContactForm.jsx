@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function ContactForm() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -178,7 +179,21 @@ export default function ContactForm() {
         >
           Errore. Riprova o scrivici direttamente a umberto@effettoweb.com
         </motion.p>
-      )}
-    </form>
+        )}
+        <p
+          style={{
+            fontFamily: "var(--font-instrument-sans), sans-serif",
+            fontSize: 12,
+            color: "#aaa",
+            textAlign: "center",
+            marginTop: 16,
+          }}
+        >
+          Cliccando Invia accetti la nostra{" "}
+          <Link href="/privacy" style={{ color: "#6366f1", textDecoration: "underline" }}>
+            Privacy Policy
+          </Link>
+        </p>
+      </form>
   );
 }

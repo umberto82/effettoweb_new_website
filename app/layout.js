@@ -1,6 +1,7 @@
 import { Geist, Instrument_Serif, Instrument_Sans } from "next/font/google";
 import "./globals.css";
 import JsonLd from "../components/JsonLd";
+import CookieBanner from "../components/CookieBanner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -86,6 +87,7 @@ export default function RootLayout({ children }) {
       >
         <JsonLd />
         {children}
+        <CookieBanner />
       </body>
     </html>
   );

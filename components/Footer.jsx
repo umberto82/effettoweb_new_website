@@ -53,6 +53,19 @@ export default function Footer() {
         >
           LinkedIn
         </a>
+        <a
+          href="/privacy"
+          style={{
+            fontFamily: "var(--font-instrument-sans), sans-serif",
+            fontSize: 14,
+            color: "#888888",
+            transition: "color 0.2s",
+          }}
+          onMouseEnter={(e) => (e.currentTarget.style.color = "#0f0f1a")}
+          onMouseLeave={(e) => (e.currentTarget.style.color = "#888888")}
+        >
+          Privacy
+        </a>
       </div>
     </footer>
   );
